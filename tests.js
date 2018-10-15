@@ -73,3 +73,27 @@ if (errorTriggered)
     console.log('test 8 passed');
 else
     console.log('test 8 failed');
+// Test 9
+errorTriggered = false;
+try {
+    getHead_1.getHead('a', arr);
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 9 passed');
+else
+    console.log('test 9 failed');
+// Test 10
+errorTriggered = false;
+try {
+    getTail_1.getTail('0', arr);
+}
+catch (e) {
+    errorTriggered = true;
+}
+if (errorTriggered)
+    console.log('test 10 passed');
+else
+    console.log('test 10 failed');
