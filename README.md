@@ -9,6 +9,7 @@ Neither of them modify the source array.
 Examples:
 
 let arr = ['h', 'i', 'j', 'k', 'l', 'm', 'n', 'o'];
+
 let head = getHead(2, arr);
 
 head now contains ['h', 'i']
