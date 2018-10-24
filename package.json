@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-head-tail",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Functions that return either a number of items from the beginning of the array or the end",
   "main": "",
   "scripts": {
@@ -22,9 +22,7 @@
     "url": "https://github.com/writetome51/array-get-head-tail/issues"
   },
   "homepage": "https://github.com/writetome51/array-get-head-tail#readme",
-  "devDependencies": {
-    "@writetome51/arrays-match": "latest"
-  },
+  "devDependencies": {},
   "dependencies": {
     "@writetome51/array-get-adjacent-at": "latest"
   }
