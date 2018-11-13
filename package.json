@@ -1,8 +1,8 @@
 {
   "name": "@writetome51/array-get-head-tail",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Functions that return either a number of items from the beginning of the array or the end",
-  "main": "",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -14,6 +14,8 @@
     "array",
     "manipulation",
     "return",
+    "beginning",
+    "end",
     "data"
   ],
   "author": "Steve Thompson",
