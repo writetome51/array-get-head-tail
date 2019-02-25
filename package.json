@@ -1,6 +1,6 @@
 {
   "name": "@writetome51/array-get-head-tail",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Functions that return either a number of items from the beginning of the array or the end",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
