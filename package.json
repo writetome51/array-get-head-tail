@@ -1,7 +1,8 @@
 {
   "name": "@writetome51/array-get-head-tail",
-  "version": "1.0.5",
-  "description": "Functions that return either a number of items from the beginning of the array or the end",
+  "version": "2.0.0",
+  "description": "Functions that return either a number of items from the beginning of the array, or the end",
+  "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -27,6 +28,6 @@
   "homepage": "https://github.com/writetome51/array-get-head-tail#readme",
   "devDependencies": {},
   "dependencies": {
-    "@writetome51/array-get-adjacent-at": "~1.0.3"
+    "@writetome51/array-get-adjacent-at": "^2.0.0"
   }
 }

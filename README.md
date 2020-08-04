@@ -7,9 +7,9 @@ Returns `numItems` from beginning of `array`.
 Returns `numItems` from end of `array`.
 
 Neither function modifies `array`.  
-```
-## Examples
 
+## Examples
+```
 let arr = ['h', 'i', 'j', 'k', 'l', 'm', 'n', 'o'];
 
 getHead(3, arr);  
@@ -24,11 +24,6 @@ getTail(2, arr);
 
 
 ## Loading
-```
-// if using TypeScript:
+```js
 import {getHead, getTail} from '@writetome51/array-get-head-tail';
-
-// if using ES5 JavaScript:
-var getHead = require('@writetome51/array-get-head-tail').getHead;
-var getTail = require('@writetome51/array-get-head-tail').getTail;
 ```
