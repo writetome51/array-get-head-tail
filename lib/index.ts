@@ -7,6 +7,5 @@ export function getHead(numItemsToGet, array): any[] {
 
 
 export function getTail(numItemsToGet, array): any[] {
-	let startingIndex = (array.length - numItemsToGet);
-	return getAdjacentAt(startingIndex, numItemsToGet, array);
+	return getAdjacentAt(-numItemsToGet, numItemsToGet, array);
 }
