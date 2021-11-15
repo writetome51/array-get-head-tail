@@ -9,7 +9,7 @@ Returns `numItems` from end of `array`.
 Neither function modifies `array`.  
 
 ## Examples
-```
+```js
 let arr = ['h', 'i', 'j', 'k', 'l', 'm', 'n', 'o'];
 
 getHead(3, arr);  
