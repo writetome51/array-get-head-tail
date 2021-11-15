@@ -1,8 +1,8 @@
-# getHead(numItems, array): any[]
+# getHead<T>(numItems, array: T[]): T[]
 
 Returns `numItems` from beginning of `array`.
 
-# getTail(numItems, array): any[]  
+# getTail<T>(numItems, array: T[]): T[]  
 
 Returns `numItems` from end of `array`.
 
@@ -13,10 +13,23 @@ Neither function modifies `array`.
 let arr = ['h', 'i', 'j', 'k', 'l', 'm', 'n', 'o'];
 
 getHead(3, arr);  
-    // --> ['h', 'i', 'j']
+// --> ['h', 'i', 'j']
 
-getTail(2, arr);  
-    // --> ['n', 'o']
+getTail(3, arr);  
+// --> ['m', n', 'o']
+
+getHead(8, arr);
+// --> ['h', 'i', 'j', 'k', 'l', 'm', 'n', 'o']
+
+getTail(8, arr);
+// --> ['h', 'i', 'j', 'k', 'l', 'm', 'n', 'o']
+    
+getHead(9, arr);
+// Error: the array does not have enough items to fulfill your request
+
+getTail(9, arr);
+// Error: The entered index is not valid. Whether positive or negative, it exceeds 
+// the index range of the array.
 ```
 
 ## Installation

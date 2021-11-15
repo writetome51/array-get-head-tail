@@ -30,6 +30,7 @@ if (tail.length === 1 && tail[0] === 'o') console.log('test 4A passed');
 else console.log('test 4A FAILED');
 
 
+
 // Test 5
 let errorTriggered = false;
 try {
@@ -94,3 +95,4 @@ try {
 }
 if (errorTriggered) console.log('test 10 passed');
 else console.log('test 10 FAILED');
+
